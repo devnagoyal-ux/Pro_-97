@@ -7,7 +7,7 @@ number = random.randint(1,9)
 chances = 1
 
 while chances < 5:
-    guess = int(input(" Guess correct number : "))
+    guess = input(" Guess correct number : ")
     chances = chances + 1
     if guess == number:
      print("Congratulations You have WON THE GAME !!! ")
